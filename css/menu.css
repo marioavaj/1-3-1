@@ -1,4 +1,7 @@
-
+menu{
+margin: 0;
+padding: 0;
+}
 
 ul{
 background-color: rgb(186, 186, 186);
@@ -37,4 +40,11 @@ li a:hover{
 .aktive {
     background-color: rgb(23, 128, 9);
     color: white;
+}
+h2{
+    font-size: 1.2em;
+}
+
+body{
+    background-color: rgb(237, 237, 237)
 }
