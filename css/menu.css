@@ -1,9 +1,9 @@
-menu{
+menu {
 margin: 0;
 padding: 0;
 }
 
-ul{
+menu ul{
 background-color: rgb(186, 186, 186);
 margin: 0;
 padding: 0.5em;
@@ -12,13 +12,13 @@ border: 1px solid rgb(146, 146, 146);
 
 }
 
-li{
+menu li{
     display: inline;
     text-decoration: none;   
     
 }
 
-li a{
+menu li a{
     
     color: black;
     text-decoration: none;
@@ -30,14 +30,14 @@ li a{
     
 }
 
-li a:hover{
+menu li a:hover{
     background-color:rgb(129, 129, 129);;
     color: white;
     
     
 }
 
-.aktive {
+menu .aktive {
     background-color: rgb(23, 128, 9);
     color: white;
 }
@@ -47,4 +47,15 @@ h2{
 
 body{
     background-color: rgb(237, 237, 237)
+}
+
+.zoznamHercov{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.woman{
+    color: rgb(182, 59, 79);
+}
+.man{
+    color: blue;
 }
