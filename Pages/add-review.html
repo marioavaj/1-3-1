@@ -5,16 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/add-review.css" />
     <title>Pridaj recenziu</title>
-    <style>
-      body {
-        background-color: rgb(237, 237, 237);
-      }
-      h1 {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      }
-    </style>
-  </head>
+    </head>
   <body>
     <menu>
       <ul>
@@ -33,5 +26,75 @@
     </menu>
 
     <h1>Pridaj recenziu</h1>
+
+
+    <form method="get">
+      <p>
+        <label class="label" for="fname">Názov filmu:*</label>
+        <input class="pole" type="text" id="fname" name="fname" required />
+        <br />
+      </p>
+      <p>
+        <label class="label" for="nick">Meno/nick:</label>
+        <input class="pole" type="text" id="nick" name="nick" /><br />
+      </p>
+      <p>
+        <label class="label" for="email">Email:*</label>
+        <input class="pole" type="email" id="email" name="email" required/><br />
+      </p>
+      <p>
+        <label class="label" for="recenzia">Recenzia:</label>
+        <textarea class="pole" id="recenzia"  name="recenzia"></textarea>
+      </p>
+      <br />
+      <p>
+        <label class="label" for="date">Dátum vzhliadnutia:</label>
+        <input class="poledate" type="date" id="date" name="date" /><br />
+      </p>
+      <br />
+      <p>
+        <label class="label" for="hodnotenie"
+          >Hodnotenie: <br />
+          (0-100)</label
+        >
+        <input
+          class="poledate"
+          type="range"
+          id="hodnotenie"
+          name="hodnotenie"
+          min="0"
+          max="100"
+          step="10"
+        /><br />
+      </p>
+      <br />
+      <p>
+        <label class="label">Žáner:</label>
+
+        <input type="radio" id="thriller" name="thriller" />
+        <label for="thriller">Thriller</label>
+        <br />
+        <input type="radio" id="drama" name="drama" />
+        <label for="drama">Dráma</label>
+        <br />
+        <input type="radio" id="komedia" name="komedia" />
+        <label for="komedia">Komédia</label>
+        <br />
+        <input type="radio" id="romantika" name="romantika" />
+        <label for="romantika">Romantika</label>
+        <br />
+        <input type="radio" id="horor" name="horor" />
+        <label for="horor">Horor</label>
+        <br />
+        <input type="radio" id="rozpravka" name="rozpravka" />
+        <label for="rozpravka">Rozprávka</label>
+        <br />
+      </p>
+      <br />
+
+      <button>Poslať</button>
+    </form>
+
+
   </body>
 </html>

@@ -6,6 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
 <style>
+    form{
+        display: inline-block;
+        background-color: rgb(216, 216, 216);
+        font-family: sans-serif;
+        padding: 1em;
+        
+            }
+
+     .input{
+         float:right ;
+         background-color: rgb(148, 148, 148);
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-family: sans-serif;
+         color: aliceblue;
+         border: 1px solid rgb(145, 145, 145);
+         width: 5em;
+         height: 2em;
+         border-style:outset;
+     }
+
+     .label{
+         background-color: aliceblue;
+         float: right;
+         border-style: none;
+         height: 1.5em;
+     }
 
 .inline{
     background-color: cornsilk;
@@ -25,7 +51,30 @@
 </style>
 
 </head>
+
 <body>
+
+
+    <form action="#" method="get">
+        <label  for="fname">Browsers</label><br>
+        <input  list="browsers" class="label" type="text" id="fname" name="fname" autofocus>
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+        <br>
+        <br>
+        <label  for="lname">Priezvisko:</label><br>
+        <input class="label"type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <input class="input" type="submit" value="odošli">
+
+    </form>
+
     <p style="background-color: rgb(254, 187, 19);">BLOK</p>
     <h1>Nadpis1</h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet accusamus aspernatur odit accusantium repellendus, ducimus illum, odio, aliquam sed labore possimus nemo nihil tenetur tempore quo cum quidem voluptas.</p>
@@ -56,7 +105,6 @@
     <h1 class="inlineblok">Nadpis1</h1>
     <p class="inlineblok">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
 
-
-    
+       
 </body>
 </html>
