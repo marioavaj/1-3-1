@@ -48,11 +48,37 @@
     
 }
 
+.noboxing{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    padding: 1em;
+    border: 10px solid black;
+    
+}
+.boxing{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    padding: 0.5em;
+    margin: 8px;
+    border: 10px solid black;
+    
+}
+
 </style>
 
 </head>
 
 <body>
+
+    <h2>Box-sizing</h2>
+    <h3>No Box-sizing (200x200px)</h3>
+    <p class="noboxing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, neque. Ut explicabo cum, illo, qui hic fugit, ab aliquid obcaecati necessitatibus reiciendis mollitia autem eaque. Perferendis eos id soluta numquam.</p>
+
+    <h3>Box-sizing (200x200px)</h3>
+    <p class="boxing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, neque. Ut explicabo cum, illo, qui hic fugit, ab aliquid obcaecati necessitatibus reiciendis mollitia autem eaque. Perferendis eos id soluta numquam.</p>
 
 
     <form action="#" method="get">
