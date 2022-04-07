@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    figure {
+      margin: 0;
+      width: 20%;
+      float: left;
+    }
+
+    embed {
+      display: block;
+      width: 60%;
+      height: 300px;
+
+      }
+
+      canvas{
+          background-color: crimson;
+          border-radius: 10px;
+          
+          
+      }
+  </style>
+  <body>
+    <h1>The figure and figcaption element</h1>
+
+    <figure>
+      <img
+        src="Images\VykupeniezVazniceShawshank.jpg"
+        alt="Trulli"
+        style="width: 80%"
+      />
+      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus,
+      explicabo? Nesciunt facere praesentium rerum et l. Eveniet quidem repellat
+      ex error nulla magnam assumenda, rem reiciendis, quod laudantium quae quis
+      illum, sit rerum asperiores aliquid sapiente. Animi, Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. nobis vitae, consequuntur accusantium
+      nulla, aspernatur fuga perspiciatis accusamus illo excepturi, nam ea neque
+    </p>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.</canvas>
+        
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,100);
+        ctx.lineTo(100,0)
+        ctx.lineTo(200,100);
+        ctx.lineTo(0,0);
+        ctx.lineTo(200,0);
+        ctx.lineTo(0,100);
+        ctx.stroke();
+        </script>
+   
+    <embed src="index.html" type="text/html" />
+
+    
+
+    
+        
+
+  </body>
+</html>
