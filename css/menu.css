@@ -1,6 +1,6 @@
 menu {
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
 menu ul{
@@ -32,12 +32,11 @@ menu li a{
 menu li a:hover{
     background-color:rgb(129, 129, 129);;
     color: white;
-    
-    
+        
 }
 
 menu .aktive {
-    background-color: rgb(23, 128, 9);
+    background-color: rgb(255, 1, 1);
     color: white;
 }
 h2{
@@ -45,7 +44,8 @@ h2{
 }
 
 body{
-    background-color: rgb(237, 237, 237)
+    background-color: rgb(237, 237, 237);
+    margin: 0px;
 }
 
 .zoznamHercov{
@@ -57,4 +57,51 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 .man{
     color: blue;
+}
+
+ .banner{
+    box-sizing: border-box;
+    background-image: url(/Images/alien.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12em;
+   
+}
+.button_banner{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 45%;
+    margin-top: 2em;
+   
+}
+
+.button_banner:hover{
+   background-color: rgb(0, 0, 0);
+   cursor: pointer;
+}
+
+.text_banner{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+    padding-top: 6.6em;
+    width: 50%;
+    font-size: .7em;
+    text-align: justify;
+    margin-left: 25%;
+   color: white;
+  
+}
+
+.title_banner{
+    padding-top: 1em;
+    padding-left: 8.8em;
+    font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing:2em;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    color: white;
 }
