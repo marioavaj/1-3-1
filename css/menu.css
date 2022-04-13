@@ -62,7 +62,7 @@ h2 {
 }
 
 .banner {
-  background-image: url(/Images/alien.jpg);
+  background-image: url(../Images/alien.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 242px;
@@ -135,7 +135,7 @@ h1 {
     margin: 0em 17% 0em;
     padding: 1em;
     text-align: justify;
-    background-image: url(/Images/backgroundfilm.jpg);
+    background-image: url(../Images/backgroundfilm.jpg);
     background-size: 100%;
     box-shadow: 5px 2px 10px #1c2228;
   }
