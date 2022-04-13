@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-image: url(/Images/movie.jpg );
+    background-image: url(../Images/movie.jpg );
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
