@@ -37,6 +37,8 @@ menu li a:hover {
 }
 
 menu .aktive {
+  position: relative;
+  z-index: 1;
   background-color: rgb(255, 1, 1);
   border: 1px solid rgb(59, 20, 26);
   color: white;
@@ -58,14 +60,22 @@ menu .aktive {
 }
 
 .banner {
+  position:relative;
+  width: 100%;
+  height: 15em;
   box-sizing: border-box;
   background-image: url(../Images/alien.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-left: 3px solid red;
   border-right: 3px solid red;
+  
 }
 .button_banner {
+  display: block;
+  position: relative;
+  left: 44%;
+  bottom: -30%;
   cursor: pointer;
   color: #ffffff;
   background-color: red;
@@ -90,10 +100,13 @@ menu .aktive {
 }
 
 .text_banner {
+  position: relative;
   display: block;
-  font-family: "Space Grotesk", sans-serif;
-  padding-top: 1em;
   margin: auto;
+top: 1.5em;
+  font-family: "Space Grotesk", sans-serif;
+  
+  
   text-align: center;
   width: 31em;
   font-size: 0.7em;
@@ -102,14 +115,13 @@ menu .aktive {
 }
 
 .title_banner {
-  display: block;
-  padding-top: 20px;
+  position: relative;
+  margin: auto;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2em;
-  margin: 0;
   color: white;
 }
 
