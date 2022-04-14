@@ -62,7 +62,7 @@ menu .aktive {
 .banner {
   position:relative;
   width: 100%;
-  height: 15em;
+  height: 20em;
   box-sizing: border-box;
   background-image: url(../Images/alien.jpg);
   background-size: 100%;
@@ -72,9 +72,8 @@ menu .aktive {
   
 }
 .button_banner {
-  display: block;
   position: relative;
-  left: 44%;
+  left: 50%;
   bottom: -30%;
   cursor: pointer;
   color: #ffffff;
