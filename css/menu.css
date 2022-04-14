@@ -80,7 +80,7 @@ menu .aktive {
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
-  margin: 3em 45%;
+  margin: auto;
 
 }
 
@@ -105,7 +105,7 @@ menu .aktive {
   display: block;
   padding-top: 20px;
   text-align: center;
-  font-size: 130%;
+  font-size: 200%;
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2em;
