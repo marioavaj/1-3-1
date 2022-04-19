@@ -213,7 +213,7 @@ float: right;
   }
 
 .woman::before {
-  background-image: url("../Images/woman-removebg-preview.png");
+  background-image: url("./Images/woman-removebg-preview.png");
     background-size: 35px 35px;
     display: inline-block;
     width: 35px; 
@@ -224,7 +224,7 @@ float: right;
   }
 
   .man::before {
-    background-image: url("../Images/man-removebg-preview.png");
+    background-image: url("./Images/man-removebg-preview.png");
     background-size: 35px 35px;
     display: inline-block;
     width: 35px; 
