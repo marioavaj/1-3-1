@@ -211,27 +211,24 @@ float: right;
   font-size: 150%;
   color: rgb(255, 13, 13);
   }
-.imglist{
-  
-}
 
 .woman::before {
-  background-image: url("/Images/woman-removebg-preview.png");
-    background-size: 30px 30px;
+  background-image: url("../Images/woman-removebg-preview.png");
+    background-size: 35px 35px;
     display: inline-block;
-    width: 30px; 
-    height: 30px;
+    width: 35px; 
+    height: 35px;
     content:"";
     vertical-align:middle;
     margin-right: 4px;
   }
 
   .man::before {
-    background-image: url("/Images/man-removebg-preview.png");
-    background-size: 30px 30px;
+    background-image: url("../Images/man-removebg-preview.png");
+    background-size: 35px 35px;
     display: inline-block;
-    width: 30px; 
-    height: 30px;
+    width: 35px; 
+    height: 35px;
     content:"";
     vertical-align:middle;
     margin-right: 4px;
