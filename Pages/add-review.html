@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="../css/add-review.css" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
     <title>Pridaj recenziu</title>
 
     <style>
@@ -35,16 +42,16 @@
     <h1>Pridaj recenziu</h1>
     <form method="get">
       <p>
-        <label class="label" for="fname">Názov filmu:*</label>
+        <label class="label" for="fname"><i class="fa fa-file-movie-o"></i> Názov filmu:*</label>
         <input class="pole" type="text" id="fname" name="fname" required />
         <br />
       </p>
       <p>
-        <label class="label" for="nick">Meno/nick:</label>
+        <label class="label" for="nick"><i class="fa fa-user-circle-o"></i> Meno/nick:</label>
         <input class="pole" type="text" id="nick" name="nick" /><br />
       </p>
       <p>
-        <label class="label" for="email">Email:*</label>
+        <label class="label" for="email"><i class="fas fa-mail-bulk"></i> Email:*</label>
         <input
           class="pole"
           type="email"
@@ -54,19 +61,19 @@
         /><br />
       </p>
       <p>
-        <label class="label" for="recenzia">Recenzia:</label>
+        <label class="label" for="recenzia"><i class="fa fa-edit"></i> Recenzia:</label>
         <textarea class="pole" id="recenzia" name="recenzia"></textarea>
       </p>
       <br />
       <p>
-        <label class="label" for="date">Dátum vzhliadnutia:</label>
+        <label class="label" for="date"><i class="fa fa-eye"></i> Videl som ho:</label>
         <input class="poledate" type="date" id="date" name="date" /><br />
       </p>
       <br />
       <p>
         <label class="label" for="hodnotenie"
-          >Hodnotenie: <br />
-          (0-100)</label
+          ><i class="fa fa-percent"></i> Hodnotenie: <br />
+                </label
         >
         <input
           class="poledate"
@@ -80,7 +87,7 @@
       </p>
       <br />
       <p>
-        <label class="label">Žáner:</label>
+        <label class="label"><i class="fa fa-bars"></i> Žáner:</label>
 
         <input type="radio" id="thriller" name="thriller" />
         <label for="thriller">Thriller</label>
