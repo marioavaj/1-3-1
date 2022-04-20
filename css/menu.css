@@ -1,13 +1,12 @@
-body{
-    margin: 0;
-    background-image: url(../Images/movie.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  margin: 0;
+  background-image: url(../Images/movie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 menu {
-  
   margin: 0;
   padding: 0;
 }
@@ -23,7 +22,7 @@ menu ul {
 
 menu li {
   list-style-type: none;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 menu li a {
@@ -31,7 +30,6 @@ menu li a {
   text-decoration: none;
   font: 0.9em sans-serif;
   padding: 1em 1em 0.9em 1em;
-  
 }
 
 menu li a:hover {
@@ -49,8 +47,6 @@ menu .aktive {
   border-radius: 0 0 5px 5px;
 }
 
-
-
 .zoznamHercov {
   list-style-type: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -64,22 +60,22 @@ menu .aktive {
 }
 
 .banner {
-  position:relative;
-  width: 100%;
-  
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   background-image: url(../Images/alien.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 300px;
+  box-sizing: border-box;
   border-left: 3px solid red;
   border-right: 3px solid red;
-  
 }
+
 .button_banner {
-  position: relative;
-  left: 47%;
-  bottom: -35%;
-  cursor: pointer;
+  
+   cursor: pointer;
   color: #ffffff;
   background-color: red;
   border-radius: 5px;
@@ -87,14 +83,11 @@ menu .aktive {
   font-family: "Source Sans Pro", sans-serif;
   padding: 6px 18px;
   margin-bottom: 16px !important;
-  display: inline-block;
   vertical-align: middle;
-  overflow: hidden;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
-  margin: auto;
-
+  
 }
 
 .button_banner:hover {
@@ -102,85 +95,75 @@ menu .aktive {
   cursor: pointer;
 }
 
+
 .text_banner {
-  position: relative;
-  display: block;
+  width: 60%;
   margin: auto;
-top: 2em;
   font-family: "Space Grotesk", sans-serif;
-    text-align: center;
-  width: 31em;
-  font-size: 1.3em;
+  font-size: 100%;
   color: white;
   text-align: center;
 }
 
 .title_banner {
-  position: relative;
-  margin: auto;
-  text-align: center;
-  font-size: 3em;
+  margin: 0;
+ 
+  font-size: 2em;
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2em;
+  letter-spacing:2rem;
   color: white;
 }
 
-
 h1 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  h2 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 1.2em;
-  
-  }
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+}
 
-  p {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
-  article {
-    width: 62%;
-    margin: 0 17% 0;
-    padding: 1em;
-    text-align: justify;
-    background-image: url(../Images/backgroundfilm.jpg);
-    background-size: 100%;
-    box-shadow: 5px 2px 10px #1c2228;
-  }
-  form{
-    width: 56%;
-  }
+article {
+  width: 62%;
+  margin: 0 17% 0;
+  padding: 1em;
+  text-align: justify;
+  background-image: url(../Images/backgroundfilm.jpg);
+  background-size: 100%;
+  box-shadow: 5px 2px 10px #1c2228;
+}
+form {
+  width: 56%;
+}
 
-  svg{
-    margin: 0;
-    margin-right: .5em;
-    float: left;
-    background-color: rgb(252, 183, 158);
-  }
+svg {
+  margin: 0;
+  margin-right: 0.5em;
+  float: left;
+  background-color: rgb(252, 183, 158);
+}
 
-  
+.infoItem {
+  background-color: rgb(197, 148, 0);
+  padding: 0.4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 249, 249);
+}
 
-  .infoItem{
-    background-color: rgb(197, 148, 0);
-    padding: 0.4em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 249, 249);
-  }
-
-  .infoWrapper{
-    background-color: transparent;
-    padding: 0.1em 0 0.1em 0;
-  }
-  .tooltip {
-    
-    
-    border-bottom: 1px dotted black;
-  }
+.infoWrapper {
+  background-color: transparent;
+  padding: 0.1em 0 0.1em 0;
+}
+.tooltip {
+  border-bottom: 1px dotted black;
+}
 
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -190,9 +173,9 @@ h1 {
   font-size: 0.8em;
   text-align: center;
   padding: 5px 5px 0 5px;
-    border-radius: 20px 20px 20px 0px ;
+  border-radius: 20px 20px 20px 0px;
   position: absolute;
-  margin: -4.5em 0 0 8em ;
+  margin: -4.5em 0 0 8em;
   z-index: 1;
 }
 
@@ -200,37 +183,36 @@ h1 {
   visibility: visible;
 }
 
-.tooltipImage{
-width: 50px;
-padding-bottom: 5px;
-padding-left: 5px;
-float: right;
+.tooltipImage {
+  width: 50px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  float: right;
 }
 
-.indexFirstLetter:first-letter{
+.indexFirstLetter:first-letter {
   font-size: 150%;
   color: rgb(255, 13, 13);
-  }
+}
 
 .woman::before {
   background-image: url("../Images/woman-removebg-preview.png");
-    background-size: 35px 35px;
-    display: inline-block;
-    width: 35px; 
-    height: 35px;
-    content:"";
-    vertical-align:middle;
-    margin-right: 4px;
-  }
+  background-size: 35px 35px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  content: "";
+  vertical-align: middle;
+  margin-right: 4px;
+}
 
-  .man::before {
-    background-image: url("../Images/man-removebg-preview.png");
-    background-size: 35px 35px;
-    display: inline-block;
-    width: 35px; 
-    height: 35px;
-    content:"";
-    vertical-align:middle;
-    margin-right: 4px;
-
-  }
+.man::before {
+  background-image: url("../Images/man-removebg-preview.png");
+  background-size: 35px 35px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  content: "";
+  vertical-align: middle;
+  margin-right: 4px;
+}
