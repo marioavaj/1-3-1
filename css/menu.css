@@ -4,7 +4,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  
 }
+
 
 menu {
   margin: 0;
@@ -215,4 +217,56 @@ svg {
   content: "";
   vertical-align: middle;
   margin-right: 4px;
+}
+
+#logo{
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 20px;
+  margin-right: 36px;
+  margin-left: 20px;
+}
+
+#orange{
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  border: solid rgb(68, 68, 68) 4px;
+}
+
+#green{
+  position: relative;
+  box-sizing: border-box;
+  top: -31px;
+  left: 8px;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  border: solid green 4px;
+}
+
+#blue{
+  position: relative;
+  box-sizing: border-box;
+  top: -47px;
+  left: 8px;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  border: solid blue 4px;
+}
+
+#red{
+  position: relative;
+  box-sizing: border-box;
+  top: -79px;
+  left: 0px;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  border: solid red 4px;
 }
