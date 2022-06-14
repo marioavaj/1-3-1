@@ -119,6 +119,9 @@ menu .aktive {
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  text-shadow: 0 0 10px black;
+  color: gold;
 }
 
 h2 {
@@ -163,34 +166,52 @@ svg {
   background-color: transparent;
   padding: 0.1em 0 0.1em 0;
 }
+
 .tooltip {
-  border-bottom: 1px dotted black;
+  color: green;
+  font-weight: 600;  
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
+
+
+
+  .tooltip .tooltiptext{
+    opacity: 0;
+    transition: opacity;
+    transition-duration: 0.5s;
+
+
   width: auto;
-  background-color: rgba(0, 128, 0, 0.733);
+  background-color: rgb(128, 0, 0);
   color: #fff;
   font-size: 0.8em;
   text-align: center;
   padding: 5px 5px 0 5px;
-  border-radius: 20px 20px 20px 0px;
+  clip-path: polygon(100% 0, 100% 77%, 23% 77%, 16% 100%, 10% 78%, 0 77%, 0 0);
   position: absolute;
-  margin: -4.5em 0 0 8em;
+  margin: -5.6em 0 0 6em;
   z-index: 1;
+  
+  
+  
+ 
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
+.tooltip:hover .tooltiptext { 
+  opacity: 1;
+  
+  
 
-.tooltipImage {
-  width: 50px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  }
+
+
+.tooltipImage{
+  width: 4em;
+  padding: 0 5px 5px 5px;
   float: right;
+  border-radius: 50%;  
 }
+ 
 
 .indexFirstLetter:first-letter {
   font-size: 150%;
